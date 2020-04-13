@@ -11,6 +11,7 @@ namespace ConsoleApp1
             feature1.WriteInConsole("This is a demo . I am kind of bored");
 
             feature1.WriteNumberInConsole(45);
+            feature1.WriteInConsole("This is a git training demo");
         }
     }
 }
