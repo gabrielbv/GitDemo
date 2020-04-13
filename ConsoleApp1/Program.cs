@@ -10,7 +10,7 @@ namespace ConsoleApp1
 
             var feature1 = new Feature1();
 
-            feature1.WriteInConsole("This is a git training demo");
+            feature1.WriteInConsole("This is a git training demo . I am kind of bored");
         }
     }
 }
