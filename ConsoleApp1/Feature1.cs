@@ -6,8 +6,12 @@ namespace ConsoleApp1
 {
     public class Feature1
     {
-        public void WriteInConsole(string message)
+        public void WriteInConsole(string message = "")
         {
+            if (String.IsNullOrEmpty(message))
+            {
+                message = " No Message Provided";
+            }
             Console.WriteLine(message);
         }
     }
