@@ -11,9 +11,9 @@ namespace ConsoleApp1
             Console.WriteLine(message);
         }
 
-        public void WriteNumberInConsole(int numbers)
+        public void WriteNumberInConsole(int number)
         {
-            Console.WriteLine(numbers.ToString());
+            Console.WriteLine($"Youre input number is {number.ToString()} ");
         }
     }
 }
