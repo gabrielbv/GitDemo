@@ -2,11 +2,15 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var feature1 = new Feature1();
+
+            feature1.WriteInConsole("This is a demo");
         }
     }
 }
