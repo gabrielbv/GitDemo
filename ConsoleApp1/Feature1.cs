@@ -14,5 +14,10 @@ namespace ConsoleApp1
             }
             Console.WriteLine(message);
         }
+
+        public void WriteNumberInConsole(int number)
+        {
+            Console.WriteLine($"Youre input number is {number.ToString()} ");
+        }
     }
 }
